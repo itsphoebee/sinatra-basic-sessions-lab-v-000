@@ -10,4 +10,8 @@ class App < Sinatra::Base
     @session = session
     erb :index
   end
+
+  post '/checkout' do
+    binding.pry
+  end
 end
